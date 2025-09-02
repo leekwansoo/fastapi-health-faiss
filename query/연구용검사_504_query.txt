@@ -1,0 +1,45 @@
+```json
+{"question": "중앙검사실(CENTRAL LABORATORY)의 업무 흐름에서 1단계는 무엇입니까?"}
+```
+```json
+{"question": "e-SMART 시스템은 어떤 종류의 시스템입니까?"}
+```
+```json
+{"question": "임상시험 단계별 경험(STUDY TYPE EXPERIENCE) 중 가장 높은 비율을 차지하는 단계는 무엇입니까?"}
+```
+```json
+{"question": "치료 영역별 경험(THERAPEUTIC AREAS EXPERIENCE)에서 간장학(Hepatology)이 차지하는 비율은 몇 퍼센트입니까?"}
+```
+```json
+{"question": "연구용(R&D) 검사 안내서에 수록된 목록 이외의 검사도 의뢰할 수 있습니까?"}
+```
+```json
+{"question": "'Active GLP-1' 검사에 사용되는 분석 방법(Method)은 무엇입니까?"}
+```
+```json
+{"question": "'IL-6' 검사는 인간(Human) 외에 어떤 동물(Veterinary) 종을 대상으로 수행할 수 있습니까?"}
+```
+```json
+{"question": "LC-MS/MS 방법을 사용하는 검사 항목의 예시를 두 가지 이상 드시오."}
+```
+```json
+{"question": "뇌척수액(CSF)을 검체로 사용하는 검사 항목은 무엇이 있습니까?"}
+```
+```json
+{"question": "'EGFR gene mutation' 검사를 위해 필요한 검체(Specimen) 종류는 무엇입니까?"}
+```
+```json
+{"question": "면역조직화학법(Immunohistochemistry, IHC)을 사용하는 검사 항목을 모두 찾으시오."}
+```
+```json
+{"question": "'Insulin' 검사는 쥐(Rat, Mouse)를 대상으로도 수행이 가능합니까?"}
+```
+```json
+{"question": "타액(Saliva)을 검체로 사용하는 'Salivary cortisol' 검사는 어떤 분석법을 사용합니까?"}
+```
+```json
+{"question": "'C-Peptide' 검사는 어떤 방법(Methods)으로 진행됩니까?"}
+```
+```json
+{"question": "ELISA 방법으로 수행할 수 있는 'Adiponectin' 검사는 어떤 동물의 검체를 사용할 수 있습니까?"}
+```

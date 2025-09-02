@@ -1,0 +1,33 @@
+```json
+[
+  {"question": "호중구 탐식기능검사(Neutrophil respiratory Burst test) 의뢰 시 필수적으로 제출해야 하는 서류는 무엇인가요?"},
+  {"question": "적혈구삼투압취약성검사(Osmotic fragility)가 유용한 진단은 무엇이며, 결과가 낮게 나오는 질환에는 어떤 것들이 있나요?"},
+  {"question": "적혈구삼투압취약성검사를 위한 검체의 냉장 보관 안정 기간은 얼마나 되나요?"},
+  {"question": "혈장헤모글로빈(Plasma Hb) 검사 시 혈청을 사용하면 안 되는 이유는 무엇인가요?"},
+  {"question": "자당용혈검사(Sucrose hemolysis test)는 어떤 질병의 진단에 사용되나요?"},
+  {"question": "Thalassemia battery 검사 의뢰 전 반드시 해야 할 일은 무엇이며, 어떤 결과가 필수로 요구되나요?"},
+  {"question": "철염색(Iron stain) 검사를 통해 형태학적으로 조사하는 것은 무엇인가요?"},
+  {"question": "LAP score 검사는 어떤 질환들의 감별에 활용되나요?"},
+  {"question": "LAP score 검사를 위해 혈액 도말 시 부적합한 경우는 무엇인가요?"},
+  {"question": "NSE (ANBE) stain은 어떤 유형의 백혈병 진단에 활용되나요?"},
+  {"question": "PAS stain에서 ALL 세포의 특징적인 관찰 소견은 무엇인가요?"},
+  {"question": "Peroxidase 염색에서 양성 반응을 보이는 세포 계열과 음성 반응을 보이는 세포 계열은 각각 무엇인가요?"},
+  {"question": "편광현미경검사는 관절액에서 무엇을 확인하여 통풍을 진단하나요?"},
+  {"question": "혈액점도검사는 혈액의 어떤 상태에서의 점도를 각각 측정하나요?"},
+  {"question": "높은 혈액점도를 개선하기 위한 간접적인 치료법에는 어떤 것들이 있나요?"},
+  {"question": "혈액응고검사를 위해 검체를 채취한 후 어떻게 처리하여 의뢰해야 하나요?"},
+  {"question": "aPTT 검사는 어떤 응고계 인자들의 결핍 유무를 종합적으로 확인하는 검사인가요?"},
+  {"question": "헤파린 치료 시 모니터링을 위해 aPTT 정상치의 몇 배를 유지해야 하나요?"},
+  {"question": "aPTT Mixing test에서 결과가 정상 범위로 교정되지 않을 때 무엇을 의심할 수 있나요?"},
+  {"question": "Activated protein C resistance 검사는 어떤 응고인자의 변형(Factor V Leiden) 진단에 이용되나요?"},
+  {"question": "Antithrombin III (AT-III)가 결핍되면 어떤 문제가 발생할 수 있나요?"},
+  {"question": "D-dimer는 무엇이 분해될 때 생성되는 최종 산물인가요?"},
+  {"question": "Factor VIII 결핍으로 인해 발생하는 대표적인 유전 질환은 무엇인가요?"},
+  {"question": "혈우병 A 환자에게 Factor VIII를 반복 투여할 때 발생할 수 있는 문제는 무엇이며, 이를 확인하기 위한 검사는 무엇인가요?"},
+  {"question": "Factor IX 결핍으로 발생하는 질환은 무엇인가요?"},
+  {"question": "응고인자 XIII(Factor XIII)의 주요 기능은 무엇인가요?"},
+  {"question": "FDP(섬유소분해산물) 수치가 증가하는 대표적인 질환은 무엇인가요?"},
+  {"question": "루푸스항응고인자(Lupus anticoagulant)가 있을 때 APTT와 혈전 발생 경향은 어떻게 나타나나요?"},
+  {"question": "선천적인 Protein C 결핍 Type I과 Type II의 차이점은 무엇인가요?"}
+]
+```

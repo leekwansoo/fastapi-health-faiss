@@ -1,0 +1,6 @@
+[
+    {
+        "query": "Human placental lactogen (hPL) 검사 시 채혈에 사용할 수 없는 튜브 종류는 무엇인가요?",
+        "answer": "Human placental lactogen (hPL) 검사 시 채혈에 사용할 수 없는 튜브 종류는 gelatin tube(젤 튜브)입니다. 혈청 분리를 위해서는 plain tube(플레인 튜브)를 사용해야 합니다."
+    }
+]
