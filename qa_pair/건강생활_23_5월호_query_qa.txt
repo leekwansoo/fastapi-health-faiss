@@ -1,6 +1,0 @@
-[
-    {
-        "query": "1. **What is the significance of the phrase \"Staying healthy when you’re healthy takes surprisingly great determination\" as mentioned by Jeremy Bentham?**",
-        "answer": "The phrase \"Staying healthy when you’re healthy takes surprisingly great determination\" as mentioned by Jeremy Bentham highlights the idea that maintaining good health requires consistent effort and commitment, even when one is not facing immediate health challenges. It emphasizes the proactive approach to health, suggesting that it is not enough to only focus on health when problems arise; rather, ongoing dedication to healthy habits—such as proper diet, exercise, and mental well-being—is essential for long-term wellness. This perspective advocates for resilience and discipline in fostering and preserving one's health, acknowledging that staying healthy is a continuous journey that requires determination and active engagement."
-    }
-]
