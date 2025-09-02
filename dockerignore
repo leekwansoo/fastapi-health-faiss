@@ -1,9 +1,8 @@
 venv/
-.env
 .gitignore
 doc_handler.py
 __pycache__/
 */__pycache__/
 data/
-uploaded_files/
 *.md
+app.py

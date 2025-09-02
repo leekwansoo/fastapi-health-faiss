@@ -19,3 +19,31 @@ modules.faiss_db.py: Handling of Faiss db
      store-vector data-into faiss_db
      similarty_search
 
+## functional diagram
+[Client Request]
+      |
+      v
+--------------------------
+| FastAPI Application    |
+| (main.py / app.py)     |
+--------------------------
+      |
+      v
++-------------------------------+
+| @app.get("/")                 |----> welcome() - Returns welcome message
++-------------------------------+
+| @app.post("/upload_pdf")      |----> upload_pdf() - Handles PDF upload, parsing, storing, and QA generation
++-------------------------------+
+| @app.post("/query_from_documents") |----> query_from_documents() - Handles document QA retrieval and storage
++-------------------------------+
+| @app.post("/web_search")      |----> web_search() - Handles web search queries
++-------------------------------+
+      |
+      v
+--------------------------
+|   Task Handlers         |
+| (modules/...)           |
+--------------------------
+      |
+      v
+[PDF Parsing, FAISS DB, QA Generation, Web Search, etc.]

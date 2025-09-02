@@ -24,6 +24,11 @@ class QueryBody(BaseModel):
 class Body(BaseModel):
     query: str
 
+@app.get("/")
+def welcome():
+    return {"message": "Welcome to the FastAPIApp!"}
+
+
 @app.post("/upload_pdf")
 async def upload_pdf(
     file: UploadFile = File(...),
