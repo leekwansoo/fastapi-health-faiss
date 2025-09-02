@@ -1,3 +1,6 @@
+import os
+# Fetch OPENAI_API_KEY from Google Secret Manager if running on GCP
+
 import shutil
 from fastapi import FastAPI, HTTPException, UploadFile, File, Form
 import io
@@ -10,10 +13,24 @@ from modules.query_handler import query_faiss_db
 from langchain_core.documents import Document
 from graph import search_web
 from pydantic import BaseModel
-
+from google.cloud import secretmanager
 from dotenv import load_dotenv
 load_dotenv()
 
+# Fetch OPENAI_API_KEY from Google Secret Manager if running on GCP
+
+try:
+    project_id = os.getenv("GOOGLE_PROJECT_ID")
+    secret_id = "OPENAI_API_KEY"
+    if project_id:
+        client = secretmanager.SecretManagerServiceClient()
+        name = f"projects/{project_id}/secrets/{secret_id}/versions/latest"
+        response = client.access_secret_version(request={"name": name})
+        openai_api_key = response.payload.data.decode("UTF-8")
+        os.environ["OPENAI_API_KEY"] = openai_api_key
+        print(openai_api_key)
+except Exception as e:
+    print(f"Warning: Could not load OPENAI_API_KEY from Secret Manager: {e}")
 
 app = FastAPI()
 

@@ -20,3 +20,4 @@ google-generativeai
 fastapi
 uvicorn
 pydantic
+google-cloud-secret-manager

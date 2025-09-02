@@ -13,10 +13,22 @@ from langchain_openai import ChatOpenAI
 from langchain.prompts import PromptTemplate
 # 요약문을 작성하기 위한 프롬프트 정의 (직접 프롬프트를 작성하는 경우)
 import google.generativeai as genai
-
+from google.cloud import secretmanager
 from dotenv import load_dotenv
 load_dotenv()
 
+try:
+    project_id = os.getenv("GOOGLE_PROJECT_ID")
+    secret_id = "google_api_key"
+    if project_id:
+        client = secretmanager.SecretManagerServiceClient()
+        name = f"projects/{project_id}/secrets/{secret_id}/versions/latest"
+        response = client.access_secret_version(request={"name": name})
+        google_api_key = response.payload.data.decode("UTF-8")
+        os.environ["GOOGLE_API_KEY"] = google_api_key
+        print(google_api_key)
+except Exception as e:
+    print(f"Warning: Could not load GOOGLE_API_KEY from Secret Manager: {e}")
 google_api_key = os.getenv("GOOGLE_API_KEY")
 
 model = "gpt-4o-mini"

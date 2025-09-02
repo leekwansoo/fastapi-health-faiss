@@ -1,64 +1,49 @@
 ```json
 [
   {
-    "question": "17α-OH progesterone 검사의 RIA 방식과 CLIA 방식의 검사 코드는 각각 무엇인가요?"
+    "question": "17α-OH progesterone 검사에서 RIA 방식과 CLIA 방식의 참고치는 성별과 나이에 따라 어떻게 다른가요?"
   },
   {
-    "question": "17-Hydroxypregnenolone 검사를 위해 채혈할 때 주의해야 할 유의사항은 무엇인가요?"
+    "question": "17-Hydroxypregnenolone 검사를 위한 검체 채취 시 특별히 유의해야 할 점은 무엇입니까?"
   },
   {
-    "question": "17-KS (17-ketosteroid) 검사를 위한 24시간 소변 검체에 사용하는 요 보존제는 무엇인가요?"
+    "question": "17-KS (17-ketosteroid) 24시간 소변 검사 시 필요한 요 보존제의 종류와 양은 어떻게 됩니까?"
   },
   {
-    "question": "성인 남성의 17-OHCS (17-hydroxycorticosteroid) 검사 참고치는 얼마인가요?"
+    "question": "ACTH(부신피질자극호르몬) 검사를 위한 검체 채취 시 주의사항 두 가지는 무엇입니까?"
   },
   {
-    "question": "18-OHCS (18-Hydroxycorticosterone) 검체 채취 후 즉시 분리해야 하는 이유는 무엇인가요?"
+    "question": "Cortisol 수치는 높고 ACTH 수치는 낮을 때 의심할 수 있는 질환은 무엇인가요?"
   },
   {
-    "question": "ACTH 검사를 위한 검체 채취 시 유의사항 두 가지는 무엇인가요?"
+    "question": "Aldosterone 검사 결과에 영향을 미칠 수 있는 요인들은 무엇이 있습니까?"
   },
   {
-    "question": "Cortisol과 ACTH 호르몬 수치가 모두 낮을 때 의심되는 질환명은 무엇인가요?"
+    "question": "Anti-Mullerian hormone (AMH) 검사는 어떤 목적으로 이용되며, 41-45세 여성의 참고치는 어떻게 됩니까?"
   },
   {
-    "question": "Aldosterone 검사 결과에 영향을 미칠 수 있는 요인들은 무엇이 있나요?"
+    "question": "소아에게서 Androstenedione 수치가 증가했을 때 어떤 질환을 의심할 수 있으며, 진단을 위해 추가로 어떤 검사를 할 수 있나요?"
   },
   {
-    "question": "Anti-Mullerian hormone (AMH) 검사 의뢰 시 필수적인 사항은 무엇이며, 특정 나이대에서 그래프 결과를 제공하지 않는 이유는 무엇인가요?"
+    "question": "Catecholamine 검사 일주일 전부터 중단해야 하는 약물이나 물질에는 어떤 것들이 있습니까?"
   },
   {
-    "question": "소아에게서 Androstenedione 수치가 증가했을 때 어떤 질환을 의심할 수 있나요?"
+    "question": "C-peptide 검사가 췌장의 인슐린 분비능 평가에 유용한 이유는 무엇입니까?"
   },
   {
-    "question": "항이뇨호르몬(ADH) 검사를 LC-MS/MS 방법으로 진행할 때의 검사코드와 참고치는 어떻게 되나요?"
+    "question": "21-hydroxylase 결핍에 의한 선천성부신과형성증(CAH) 진단을 위한 CAH Profile 검사에서 질환이 있는 경우 어떤 호르몬 수치의 변화가 나타납니까?"
   },
   {
-    "question": "Calcitonin 검체는 채취 후 어떻게 보관 및 운송해야 하나요?"
+    "question": "C-Telopeptide (CTx) 검사는 무엇을 측정하는 지표이며, 검사 전 준비사항은 무엇인가요?"
   },
   {
-    "question": "21-Hydroxylase 결핍에 의한 선천성부신과형성증(CAH) 진단을 위한 CAH Profile 검사에서 주로 변화를 보이는 호르몬은 무엇인가요?"
+    "question": "Cortisol 검사에서 혈청 검사와 요 검사는 각각 어떤 임상적 의의를 가집니까?"
   },
   {
-    "question": "C-Telopeptide (CTx) 검사 전 환자가 지켜야 할 사항은 무엇인가요?"
+    "question": "18-Hydroxycorticosterone (18-OHCS) 검사는 어떤 질환들의 감별 진단에 유용합니까?"
   },
   {
-    "question": "Catecholamine 3분획 검사에 포함되는 항목은 무엇이며, 검사 1주일 전부터 중단해야 하는 약물이나 물질에는 어떤 것들이 있나요?"
-  },
-  {
-    "question": "C-peptide 검사가 췌장 β세포의 인슐린 분비능 평가에 유용한 이유는 무엇인가요?"
-  },
-  {
-    "question": "Corticosterone 검사의 참고치 표에 따르면, 10세 소아의 참고치 범위는 얼마인가요?"
-  },
-  {
-    "question": "Cortisol 검사에서 혈청 검사와 요 검사의 임상적 유용성 차이는 무엇인가요?"
-  },
-  {
-    "question": "17α-OH progesterone (CLIA) 검체는 냉장 보관 시 며칠까지 안정적인가요?"
-  },
-  {
-    "question": "AMH 수치가 높게 나올 때 의심할 수 있는 질환은 무엇인가요?"
+    "question": "ADH (항이뇨호르몬)는 인체에서 어떤 역할을 하며, 어떤 경우에 분비가 억제됩니까?"
   }
 ]
 ```
